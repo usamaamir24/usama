@@ -1,0 +1,108 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(96, 96, 201);
+}
+nav h2{
+    margin-left: 20px;
+}
+.navbar nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    }
+nav ul li {
+list-style: none;
+margin-left: 25px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+.main{
+ margin-top: 100px;
+ margin-left: 100px;
+ display: flex;
+ justify-content: space-between;
+}
+.main img{
+    margin-right: 100px;
+}
+.main button{
+    background-color: rgb(27, 77, 77);
+    color: white;
+    font-size: 20px;
+    
+}
+/* product css */
+
+ .card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   }
+   .card .crd{
+    margin-inline: 22px;
+    text-align: center;
+   }
+   .crd i{
+    color: rgb(252, 164, 2);
+    margin-top: 3px;
+   }
+   .crd h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+   }
+   .crd img{
+    width: 300px;
+    height: 330px;
+   }
+   .head{
+    padding: 55px;
+   text-align: center;
+   }
+   .head span{
+    color: orangered;
+   }
+
+
+  .connect{
+    text-align: center;
+   }
+   .btn:hover{
+   background-color: rgb(44, 31, 31);
+   color: white;
+   }
+   .connect input{
+    width: 340px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: transparent;
+    margin-top: 11px;
+    border: none;
+    outline-color:orange;
+    border: 2px black solid;
+   }
+   .connect button{
+    width: 130px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(220, 24, 24);
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+   }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 44px;
+    margin-top: 33px;
+   }
